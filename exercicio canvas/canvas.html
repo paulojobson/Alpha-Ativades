@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando no Canvas</title>
+
+<body>
+  <h1>The canvas element</h1>
+
+  <canvas height="640px" width="800px" id="She and Wolves">Your browser does not support the canvas tag.</canvas>
+  
+  <script>
+  var c = document.getElementById("She and Wolves");
+  var ctx = c.getContext("2d");
+    var shewolve= new Image(); 
+    shewolve.src = "80197624_2752290204814211_2701626822520471552_n.jpg"
+    shewolve.onload = function () { 
+      ctx.drawImage (shewolve ,0,0);
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.dark {
+  background-color: aqua;
+  color: black;
+}
+
+.light {
+  background-color: black;
+  color: white;
+  
+}
+
+p::after {
+  content: "→";
+}
+
+div p{
+   background-color: red;
+ }
+
+
+p{
+  padding: 20px;
+}
+
+#meu-paragrafo-rosa{
+  color: rgb(233, 32, 199);
+  background-color:rgb(217, 217, 240);
+}
+button:hover {
+  color: blue;
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="files.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            background-color: rgb(205, 226, 217);
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        form {  
+
+            margin: 10% 35%;
+            border: solid 4px;
+            padding: 9px;
+
+        }
+    
+        .formscroll {
+          overflow: scroll;
+        }
+        .formheight {
+          
+            width: 9.5rem;
+            height: 42rem;
+            overflow: scroll;
+        }  
+        .formvisible{
+          width: 8.5rem;
+          height: 35rem;
+          overflow: visible;
+        }
+        .formauto{
+          width: 8.5rem;
+          height: 35rem;
+          overflow: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+  <div>
+    <form  class="formscroll" action="/pagina-processa-dados-do-form" method="post">
+
+        <h1>
+            Formulario de inscrição
+        </h1>
+        <div>
+            <label for="nome"> nome: </label>
+            <br>
+            <input type="text" id="    nome    " />
+        </div>
+        <br>
+        <dive>
+            <label for="email">email:</label>
+            <br>
+            <input type="text" id="email" />
+        </dive>
+        <br>
+        <br>
+        <div>
+            <label for="password">password:</label>
+            <br>
+            <input type="text" id="password" />
+        </div>
+        <br>
+        <div>
+            <label for="password">password:</label>
+            <br>
+            <input type="text" id="password" />
+        </div>
+
+        <br>
+        <div>
+            <br>
+            <p>Data de Nascimento</p>
+
+            <input type="date">
+            <br>
+        </div>
+        <br>
+        <p>Selecione o Sexo</p>
+
+        <fieldset>
+
+            <input type="radio" name="sex" id="H">
+            <label for="H">H</label>
+            <br>
+            <input type="radio" name="sex" id="M">
+            <label for="M">M</label>
+
+        </fieldset>
+        <br>
+            <p>Nível de Aprovação</p>
+        <div>
+            <input type="range" list="tickmarks">
+
+            <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50" label="50%">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100" label="100%">
+            </datalist>
+        </div>
+        <br>
+        <div> 
+            <p>Não Sou Um Robo</p>
+            <input type="checkbox">
+        </div>
+        <br>
+        <div class="button">
+            <button type="submit">submit</button>
+        </div>
+        <br>
+        <div class="button">
+            <button type="reset">reset</button>
+        </div>
+        <br>
+
+    </form>
+  </div> 
+  <div>
+    <form class="formheight" action="/pagina-processa-dados-do-form" method="post">
+
+      <h1>
+          Formulario de inscrição
+      </h1>
+      <div>
+          <label for="nome"> nome: </label>
+          <br>
+          <input type="text" id="    nome    " />
+      </div>
+      <br>
+      <dive>
+          <label for="email">email:</label>
+          <br>
+          <input type="text" id="email" />
+      </dive>
+      <br>
+      <br>
+      <div>
+          <label for="password">password:</label>
+          <br>
+          <input type="text" id="password" />
+      </div>
+      <br>
+      <div>
+          <label for="password">password:</label>
+          <br>
+          <input type="text" id="password" />
+      </div>
+
+      <br>
+      <div>
+          <br>
+          <p>Data de Nascimento</p>
+
+          <input type="date">
+          <br>
+      </div>
+      <br>
+      <p>Selecione o Sexo</p>
+
+      <fieldset>
+
+          <input type="radio" name="sex" id="H">
+          <label for="H">H</label>
+          <br>
+          <input type="radio" name="sex" id="M">
+          <label for="M">M</label>
+
+      </fieldset>
+      <br>
+          <p>Nível de Aprovação</p>
+      <div>
+          <input type="range" list="tickmarks">
+
+          <datalist id="tickmarks">
+              <option value="0" label="0%">
+              <option value="10">
+              <option value="20">
+              <option value="30">
+              <option value="40">
+              <option value="50" label="50%">
+              <option value="60">
+              <option value="70">
+              <option value="80">
+              <option value="90">
+              <option value="100" label="100%">
+          </datalist>
+      </div>
+      <br>
+      <div> 
+          <p>Não Sou Um Robo</p>
+          <input type="checkbox">
+      </div>
+      <br>
+      <div class="button">
+          <button type="submit">submit</button>
+      </div>
+      <br>
+      <div class="button">
+          <button type="reset">reset</button>
+      </div>
+      <br>
+
+  </form>
+</div>
+
+<div>
+  <form  class="formvisible" action="/pagina-processa-dados-do-form" method="post">
+
+      <h1>
+          Formulario de inscrição
+      </h1>
+      <div>
+          <label for="nome"> nome: </label>
+          <br>
+          <input type="text" id="    nome    " />
+      </div>
+      <br>
+      <dive>
+          <label for="email">email:</label>
+          <br>
+          <input type="text" id="email" />
+      </dive>
+      <br>
+      <br>
+      <div>
+          <label for="password">password:</label>
+          <br>
+          <input type="text" id="password" />
+      </div>
+      <br>
+      <div>
+          <label for="password">password:</label>
+          <br>
+          <input type="text" id="password" />
+      </div>
+
+      <br>
+      <div>
+          <br>
+          <p>Data de Nascimento</p>
+
+          <input type="date">
+          <br>
+      </div>
+      <br>
+      <p>Selecione o Sexo</p>
+
+      <fieldset>
+
+          <input type="radio" name="sex" id="H">
+          <label for="H">H</label>
+          <br>
+          <input type="radio" name="sex" id="M">
+          <label for="M">M</label>
+
+      </fieldset>
+      <br>
+          <p>Nível de Aprovação</p>
+      <div>
+          <input type="range" list="tickmarks">
+
+          <datalist id="tickmarks">
+              <option value="0" label="0%">
+              <option value="10">
+              <option value="20">
+              <option value="30">
+              <option value="40">
+              <option value="50" label="50%">
+              <option value="60">
+              <option value="70">
+              <option value="80">
+              <option value="90">
+              <option value="100" label="100%">
+          </datalist>
+      </div>
+      <br>
+      <div> 
+          <p>Não Sou Um Robo</p>
+          <input type="checkbox">
+      </div>
+      <br>
+      <div class="button">
+          <button type="submit">submit</button>
+      </div>
+      <br>
+      <div class="button">
+          <button type="reset">reset</button>
+      </div>
+      <br>
+
+  </form>
+</div> 
+<br>
+<div>
+  <form  class="formauto" action="/pagina-processa-dados-do-form" method="post">
+
+      <h1>
+          Formulario de inscrição
+      </h1>
+      <div>
+          <label for="nome"> nome: </label>
+          <br>
+          <input type="text" id="    nome    " />
+      </div>
+      <br>
+      <dive>
+          <label for="email">email:</label>
+          <br>
+          <input type="text" id="email" />
+      </dive>
+      <br>
+      <br>
+      <div>
+          <label for="password">password:</label>
+          <br>
+          <input type="text" id="password" />
+      </div>
+      <br>
+      <div>
+          <label for="password">password:</label>
+          <br>
+          <input type="text" id="password" />
+      </div>
+
+      <br>
+      <div>
+          <br>
+          <p>Data de Nascimento</p>
+
+          <input type="date">
+          <br>
+      </div>
+      <br>
+      <p>Selecione o Sexo</p>
+
+      <fieldset>
+
+          <input type="radio" name="sex" id="H">
+          <label for="H">H</label>
+          <br>
+          <input type="radio" name="sex" id="M">
+          <label for="M">M</label>
+
+      </fieldset>
+      <br>
+          <p>Nível de Aprovação</p>
+      <div>
+          <input type="range" list="tickmarks">
+
+          <datalist id="tickmarks">
+              <option value="0" label="0%">
+              <option value="10">
+              <option value="20">
+              <option value="30">
+              <option value="40">
+              <option value="50" label="50%">
+              <option value="60">
+              <option value="70">
+              <option value="80">
+              <option value="90">
+              <option value="100" label="100%">
+          </datalist>
+      </div>
+      <br>
+      <div> 
+          <p>Não Sou Um Robo</p>
+          <input type="checkbox">
+      </div>
+      <br>
+      <div class="button">
+          <button type="submit">submit</button>
+      </div>
+      <br>
+      <div class="button">
+          <button type="reset">reset</button>
+      </div>
+      <br>
+
+  </form>
+</div> 
+</body>
+
+</html>

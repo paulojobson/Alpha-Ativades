@@ -1,0 +1,55 @@
+body{
+  background-color: grey;
+}
+div {
+  display: inline-block;
+  margin: 20px;
+  height: 20rem;
+  width: 20rem;
+  border: solid 3px rgb(199, 52, 52);
+
+}
+
+.div1 {
+  background-color: black;
+  border-radius: 50px ;
+  
+}
+
+.div1:hover {
+  background-color: red;
+  transition: background-color .5s;
+  border-radius: 50px ;
+
+}
+
+.div2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: aqua skyblue green greenyellow;
+}
+
+.div3 {
+  background-image: linear-gradient(grey, green, red);
+  border:solid 15px blue;
+}
+
+.div4 {
+  background-image: url(80197624_2752290204814211_2701626822520471552_n.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.div5 {
+  background-image: url(169677.jpg);
+  background-repeat: repeat ;
+  background-size: 150px;
+  border: 5px double black ;
+}
+img{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: dotted skyblue 10px;
+  box-shadow: cyan 5px 20px 30px;
+}

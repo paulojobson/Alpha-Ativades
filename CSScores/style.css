@@ -1,0 +1,53 @@
+body{
+background-color: rgb(252, 243, 243);
+text-align: center;
+}
+div {
+  display: inline-block;
+  margin: 20px;
+  height: 20rem;
+  width: 20rem;
+  border: solid black;
+  
+}
+
+.div1 {
+  background-color: #556B2F;
+  border-radius: 50px ;
+}
+
+.div2 { 
+  background-color: #556B2F80 ;
+  border-radius: 50px ;
+
+}
+
+.div3 {
+  background-color: rgb(47,79,79);
+  border-radius: 50px ;
+}
+
+.div4 {
+  background-color: rgb(18,41,190,0.61);
+  border-radius: 50px ;
+}
+
+.div5 {
+  background-color: hsl(60, 100%, 50%);
+  border-radius: 50px;
+}
+
+.div6 {
+  background-color: hsl(60, 100%, 50%, 0.61);
+  border-radius: 50px;
+}
+
+.div7 {
+  background-color: red;
+  border-radius: 50px;
+}
+
+.div8 {
+  background-color: currentColor;
+  border-radius: 50px;
+}

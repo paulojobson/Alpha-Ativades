@@ -1,0 +1,114 @@
+body{
+  border-radius: 50px;
+  
+}
+
+
+.box {
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+#dentro {
+  text-align: center;
+  margin: 20px;
+  border: solid 3px red;
+}
+.box>* {
+  flex: 1 1 160px;
+  border-color: black;
+}
+.box1 {
+  margin: 20px;
+  padding: 20px;
+  border: solid green;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box1>* {
+  flex: 1 1 80px;
+}
+
+.box2 {
+  margin: 20px;
+  padding: 20px;
+  border: solid skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.box2>* {
+  flex: 1 1 160px;
+}
+
+.box3 {
+  margin: 20px;
+  padding: 20px;
+  border: solid blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+}
+
+.box4 {
+  margin: 20px;
+  padding: 20px;
+  border: solid yellow;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box4>* {
+    flex: 0 0 33.3333%;
+}
+
+.wrapper {
+  margin: 20px;
+  padding: 20px;
+  border: 2px dotted rgb(96, 139, 168);
+  width: 500px;
+}
+.box5 {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin:-10px;
+}
+.box5>* {
+  flex: 1 1 160px;
+  margin: 10px;
+}
+
+.box6 {
+  margin: 20px;
+  padding: 20px;
+  border: solid violet;
+  display: flex;
+}
+.box6>* {
+  flex: 1 1 200px;
+}
+.hide {
+  visibility: collapse;
+  border: solid grey;
+}
+
+.box7 {
+  margin: 20px;
+  padding: 20px;
+  border: solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box7>* {
+  flex: 1 1 auto;
+}
+.hide2 {
+  border: solid red;
+  visibility: collapse;
+}

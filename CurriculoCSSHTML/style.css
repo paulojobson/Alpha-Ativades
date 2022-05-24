@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  width: 100%;
+  color: #069;
+  text-align: center;
+  min-height: 100vh;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  width: 30px;
+  height: 30px;
+}
+.content{
+  width: 50%;
+  overflow-y: scroll;
+  height: 90vh;
+  padding: 15px 2%;
+  box-shadow: 0 0 5px  #069;
+}
+.content::-webkit-scrollbar{
+  width: 14px;
+  border: 1px solid #069;
+}
+
+.content::-webkit-scrollbar-thumb{
+  background-color: #069;
+  border-radius: 6px;
+}
+
+.hrdados{
+  border-top: medium dashed #069;
+  border-bottom: medium dashed #069 ;
+  height: 5px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+.hrdados::after {
+  content: "Paulo Jobson dos Santos Reis";
+  font-size: 1.5em;
+  padding: 0 0.3em;
+  top: -0.7em;
+  background: #fff;
+  position: relative;
+}
+
+.hr_01{
+  border-top: medium dashed #069;
+  border-bottom: medium dashed #069 ;
+  height: 3px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+.hr_01::after{
+  content: "Objetivo";
+  position: relative;
+  top:-0.7em;
+  font-size: 1.4em;
+  background-color: #fff;
+  display: inline;
+  padding: 0 0.3em;
+}
+
+.hr_02{
+  border-top: medium dashed #069;
+  border-bottom: medium dashed #069 ;
+  height: 3px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+.hr_02::after{
+  content: "Resumo";
+  position: relative;
+  top:-0.7em;
+  font-size: 1.4em;
+  background-color: #fff;
+  display: inline;
+  padding: 0 0.3em;
+}
+
+.hr_03{
+  border-top: medium dashed #069;
+  border-bottom: medium dashed #069 ;
+  height: 3px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+.hr_03::after{
+  content: "Formação";
+  position: relative;
+  top:-0.7em;
+  font-size: 1.4em;
+  background-color: #fff;
+  display: inline;
+  padding: 0 0.3em;
+}
+.hr_04{
+  border-top: medium dashed #069;
+  border-bottom: medium dashed #069 ;
+  height: 3px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+.hr_04::after{
+  content: "Experiência";
+  position: relative;
+  top:-0.7em;
+  font-size: 1.4em;
+  background-color: #fff;
+  display: inline;
+  padding: 0 0.3em;
+}
+.hr_05{
+  border-top: medium dashed #069;
+  border-bottom: medium dashed #069 ;
+  height: 3px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+.hr_05::after{
+  content: "Redes Sociais";
+  position: relative;
+  top:-0.7em;
+  font-size: 1.4em;
+  background-color: #fff;
+  display: inline;
+  padding: 0 0.3em;
+}
+.pa{
+  margin: 3px;
+  padding: 3px;
+}

@@ -1,0 +1,61 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(istockphoto-1328689113-170667a.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+  color: black;
+  background-color: darkgrey;
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+button:focus{
+  background-color: rgb(10, 9, 6);
+}
+
+button:hover{
+  background-color: rgb(97, 95, 95);
+  opacity: 1;
+}
+
+button:active{
+  background-color: rgb(63, 71, 63);
+  opacity: 1;
+  
+}
+
+h1{
+  display: flex;
+  font-size: 80px;
+  font-family: roboto;
+}
+
+
+
+
+

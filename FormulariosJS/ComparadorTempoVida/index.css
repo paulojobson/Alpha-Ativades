@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(142, 164, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#format{
+  background-color: #fff;
+  margin-top: 200px;
+  height: 200px;
+  width: 250px;
+}

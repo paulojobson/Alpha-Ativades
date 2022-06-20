@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 52.5%;
+}
+
+body{
+  background-image: url(679140.png);
+  
+}
+
+header, footer{
+  background-color: #3f4242;
+  font-size: 3.6rem;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #1d7542;
+  text-align: center;
+}
+
+footer > p{
+  padding: 3rem;
+}
+
+#selector{
+  margin-top: 50px;
+}
+
+#dif{
+  background-image: url(algumlugar.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 600px;
+  font-size: bold 60px;
+
+}
+
+footer{
+  font-size: 2rem;
+}
+
+
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  align-items: center;
+}
+
+section > div{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h2{
+  padding: 2rem 0;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+

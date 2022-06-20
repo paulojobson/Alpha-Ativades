@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Objeto</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="dif">
+        <form action="/pagina-processa-dados-do-form" method="post">
+
+            <div id="dif">
+                <h1>
+                    Formulario Objeto
+                </h1>
+                <label for="nome"> Nome: </label><br>
+                <input type="text" id="nome" />
+            </div>
+            <br>
+            <div id="dif">
+                <label for="peso">Peso:</label>
+                <br>
+                <input type="text" id="peso" />
+            </div>
+            <br>
+            <div>
+                <label for="altura">Altura:</label>
+                <br>
+                <input type="text" id="altura" />
+            </div>
+
+            <br>
+            <div id="dif">
+                <br>
+                <p>Data de Nascimento</p>
+                <input type="text" placeholder="dia" id="dia">
+                <input type="text" placeholder="mes" id="mes">
+                <input type="text" placeholder="ano" id="ano">
+                <br>
+            </div>
+            <br>
+            <p>Selecione o Sexo</p>
+            <fieldset>
+                <select name="seletor" id="selector">
+                    <option value="5" selected disabled>Sexo</option>
+                    <option id="sexo" value="Homem">Homem</option>
+                    <option id="sexo" value="Mulher">Mulher</option>
+                </select>
+            </fieldset>
+            <button type="button" onclick="objectFromForm()">submit</button>
+        
+        </form>
+    </div>
+ 
+  <script src="index.js"></script>
+  </body>
+
+  </html>

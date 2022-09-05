@@ -1,0 +1,22 @@
+GET http://192.168.15.29:8000/users
+
+###
+POST http://192.168.15.29:8000/users
+Content-Type: application/json
+
+{
+    "nome":"paulo jobson",
+    "email":"paulojobson@gmail.com"
+}
+
+####
+
+PUT http://192.168.15.29:8000/users/paulojobson@gmail.com
+Content-Type: application/json
+
+{
+    "email":"paulojobson1@gmail.com"
+}
+
+###
+DELETE http://192.168.15.29:8000/users/paulojobson1@gmail.com
